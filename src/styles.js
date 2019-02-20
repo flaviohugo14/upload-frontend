@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  height: 90%;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -14,12 +14,4 @@ export const Content = styled.div`
     background: #FFF;
     border-radius: 4px;
     padding: 20px;
-`;
-
-export const Footer = styled.div`
-  height: 10%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 `;
