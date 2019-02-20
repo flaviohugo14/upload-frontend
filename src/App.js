@@ -99,15 +99,16 @@ class App extends Component {
     const { uploadedFiles } = this.state;
 
     return (
-      <Container>
+      <Container>    
         <Content>
           <Upload onUpload={this.handleUpload}/>
           { !!uploadedFiles.length && <FileList files={uploadedFiles} onDelete={this.handleDelete}/>}
           <GlobalStyle/>
           <Footer/>
         </Content>
-        
       </Container>
+        
+     
         
       
     );
